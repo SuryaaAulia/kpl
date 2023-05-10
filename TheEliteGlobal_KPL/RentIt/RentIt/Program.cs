@@ -1,5 +1,6 @@
 ﻿using RentIt.View.FascilityPage;
 using RentIt.View.Pembayaran_2;
+using RentIt.View.RentPage;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace RentIt
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(true);
-            Application.Run(new FsacilityPageView());
+            Application.Run(new RentPageVIew());
         }
     }
 }
